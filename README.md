@@ -11,6 +11,8 @@ DATA -------------------------------
 DATA -------------------------------
 
 
+
+
 PATENTBERT EMBEDDING ---------------
 
 The embedding section took a significant amount of time because it involves a lot of inference. Across 4 instances running concurrently on T4 GPUs, it took about 15 hours to complete. 
@@ -20,6 +22,9 @@ The embedding section took a significant amount of time because it involves a lo
 3. All .npy files are combined to create embeddings, which are stored in the folder titled "all" in the google drive at the bottom of this README. These embeddings are the inputs to the evaluation code.
 
 PATENTBERT EMBEDDING ---------------
+
+
+
 
 EVALUATION -------------------------
 1. To generate closeness and SCS metrics, download all files within the "all" folder.
