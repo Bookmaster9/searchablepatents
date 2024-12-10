@@ -1,4 +1,6 @@
+ABSTRACT:
 Patents are critical to inventors, businesses, and governments. They protect valuable intellectual property by creating guardrails aside similar innovations. Patent landscaping is the process of developing a comprehensive set of patents related to a specific topic by iteratively finding similar patents. We propose 3 unique patent embedding strategies and 2 novel evaluation metrics to build a system to match patents. Over a sample of 30 thousand patents published in 2023, we show that the summarized fulltext description section of each patent, which has been underutilized by prior work, produces the most informative patent embeddings. 
+
 
 To reproduce results from the paper:
 
